@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1806298D2221295C0066C4EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18107D89221FCE360049AEAC /* AppDelegate.swift */; };
+		1806298E2221295D0066C4EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18107D89221FCE360049AEAC /* AppDelegate.swift */; };
+		18107D8A221FCE360049AEAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18107D89221FCE360049AEAC /* AppDelegate.swift */; };
+		18107D8C221FCE360049AEAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18107D8B221FCE360049AEAC /* ViewController.swift */; };
+		18107D8F221FCE360049AEAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18107D8D221FCE360049AEAC /* Main.storyboard */; };
+		18107D91221FCE3C0049AEAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18107D90221FCE3C0049AEAC /* Assets.xcassets */; };
+		18107D94221FCE3C0049AEAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18107D92221FCE3C0049AEAC /* LaunchScreen.storyboard */; };
+		18107D9F221FCE3D0049AEAC /* widokiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18107D9E221FCE3D0049AEAC /* widokiTests.swift */; };
+		18107DAA221FCE3D0049AEAC /* widokiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18107DA9221FCE3D0049AEAC /* widokiUITests.swift */; };
+		18F00F6D222152AD0084CB2E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F00F6C222152AD0084CB2E /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18107D9B221FCE3D0049AEAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18107D7E221FCE360049AEAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18107D85221FCE360049AEAC;
+			remoteInfo = widoki;
+		};
+		18107DA6221FCE3D0049AEAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18107D7E221FCE360049AEAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18107D85221FCE360049AEAC;
+			remoteInfo = widoki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18107D86221FCE360049AEAC /* widoki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = widoki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18107D89221FCE360049AEAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18107D8B221FCE360049AEAC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18107D90221FCE3C0049AEAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18107D95221FCE3C0049AEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18107D9A221FCE3D0049AEAC /* widokiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = widokiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18107D9E221FCE3D0049AEAC /* widokiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widokiTests.swift; sourceTree = "<group>"; };
+		18107DA0221FCE3D0049AEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18107DA5221FCE3D0049AEAC /* widokiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = widokiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18107DA9221FCE3D0049AEAC /* widokiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widokiUITests.swift; sourceTree = "<group>"; };
+		18107DAB221FCE3D0049AEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F00F6C222152AD0084CB2E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		18F00F6E222152CC0084CB2E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F00F6F222152CC0084CB2E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18107D83221FCE360049AEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F00F6D222152AD0084CB2E /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18107D97221FCE3D0049AEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18107DA2221FCE3D0049AEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18107D7D221FCE360049AEAC = {
+			isa = PBXGroup;
+			children = (
+				18107D88221FCE360049AEAC /* widoki */,
+				18107D9D221FCE3D0049AEAC /* widokiTests */,
+				18107DA8221FCE3D0049AEAC /* widokiUITests */,
+				18107D87221FCE360049AEAC /* Products */,
+				18F00F6B222152AD0084CB2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18107D87221FCE360049AEAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18107D86221FCE360049AEAC /* widoki.app */,
+				18107D9A221FCE3D0049AEAC /* widokiTests.xctest */,
+				18107DA5221FCE3D0049AEAC /* widokiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18107D88221FCE360049AEAC /* widoki */ = {
+			isa = PBXGroup;
+			children = (
+				18107D89221FCE360049AEAC /* AppDelegate.swift */,
+				18107D8B221FCE360049AEAC /* ViewController.swift */,
+				18107D8D221FCE360049AEAC /* Main.storyboard */,
+				18107D90221FCE3C0049AEAC /* Assets.xcassets */,
+				18107D92221FCE3C0049AEAC /* LaunchScreen.storyboard */,
+				18107D95221FCE3C0049AEAC /* Info.plist */,
+			);
+			path = widoki;
+			sourceTree = "<group>";
+		};
+		18107D9D221FCE3D0049AEAC /* widokiTests */ = {
+			isa = PBXGroup;
+			children = (
+				18107D9E221FCE3D0049AEAC /* widokiTests.swift */,
+				18107DA0221FCE3D0049AEAC /* Info.plist */,
+			);
+			path = widokiTests;
+			sourceTree = "<group>";
+		};
+		18107DA8221FCE3D0049AEAC /* widokiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18107DA9221FCE3D0049AEAC /* widokiUITests.swift */,
+				18107DAB221FCE3D0049AEAC /* Info.plist */,
+			);
+			path = widokiUITests;
+			sourceTree = "<group>";
+		};
+		18F00F6B222152AD0084CB2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18F00F6C222152AD0084CB2E /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18107D85221FCE360049AEAC /* widoki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18107DAE221FCE3D0049AEAC /* Build configuration list for PBXNativeTarget "widoki" */;
+			buildPhases = (
+				18107D82221FCE360049AEAC /* Sources */,
+				18107D83221FCE360049AEAC /* Frameworks */,
+				18107D84221FCE360049AEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = widoki;
+			productName = widoki;
+			productReference = 18107D86221FCE360049AEAC /* widoki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18107D99221FCE3D0049AEAC /* widokiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18107DB1221FCE3D0049AEAC /* Build configuration list for PBXNativeTarget "widokiTests" */;
+			buildPhases = (
+				18107D96221FCE3D0049AEAC /* Sources */,
+				18107D97221FCE3D0049AEAC /* Frameworks */,
+				18107D98221FCE3D0049AEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18107D9C221FCE3D0049AEAC /* PBXTargetDependency */,
+			);
+			name = widokiTests;
+			productName = widokiTests;
+			productReference = 18107D9A221FCE3D0049AEAC /* widokiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18107DA4221FCE3D0049AEAC /* widokiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18107DB4221FCE3D0049AEAC /* Build configuration list for PBXNativeTarget "widokiUITests" */;
+			buildPhases = (
+				18107DA1221FCE3D0049AEAC /* Sources */,
+				18107DA2221FCE3D0049AEAC /* Frameworks */,
+				18107DA3221FCE3D0049AEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18107DA7221FCE3D0049AEAC /* PBXTargetDependency */,
+			);
+			name = widokiUITests;
+			productName = widokiUITests;
+			productReference = 18107DA5221FCE3D0049AEAC /* widokiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18107D7E221FCE360049AEAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = tech;
+				TargetAttributes = {
+					18107D85221FCE360049AEAC = {
+						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					18107D99221FCE3D0049AEAC = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 18107D85221FCE360049AEAC;
+					};
+					18107DA4221FCE3D0049AEAC = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 18107D85221FCE360049AEAC;
+					};
+				};
+			};
+			buildConfigurationList = 18107D81221FCE360049AEAC /* Build configuration list for PBXProject "widoki" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18107D7D221FCE360049AEAC;
+			productRefGroup = 18107D87221FCE360049AEAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18107D85221FCE360049AEAC /* widoki */,
+				18107D99221FCE3D0049AEAC /* widokiTests */,
+				18107DA4221FCE3D0049AEAC /* widokiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18107D84221FCE360049AEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18107D94221FCE3C0049AEAC /* LaunchScreen.storyboard in Resources */,
+				18107D91221FCE3C0049AEAC /* Assets.xcassets in Resources */,
+				18107D8F221FCE360049AEAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18107D98221FCE3D0049AEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18107DA3221FCE3D0049AEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18107D82221FCE360049AEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18107D8C221FCE360049AEAC /* ViewController.swift in Sources */,
+				18107D8A221FCE360049AEAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18107D96221FCE3D0049AEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1806298D2221295C0066C4EE /* AppDelegate.swift in Sources */,
+				18107D9F221FCE3D0049AEAC /* widokiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18107DA1221FCE3D0049AEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1806298E2221295D0066C4EE /* AppDelegate.swift in Sources */,
+				18107DAA221FCE3D0049AEAC /* widokiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18107D9C221FCE3D0049AEAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18107D85221FCE360049AEAC /* widoki */;
+			targetProxy = 18107D9B221FCE3D0049AEAC /* PBXContainerItemProxy */;
+		};
+		18107DA7221FCE3D0049AEAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18107D85221FCE360049AEAC /* widoki */;
+			targetProxy = 18107DA6221FCE3D0049AEAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18107D8D221FCE360049AEAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F00F6F222152CC0084CB2E /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18107D92221FCE3C0049AEAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F00F6E222152CC0084CB2E /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18107DAC221FCE3D0049AEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18107DAD221FCE3D0049AEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18107DAF221FCE3D0049AEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = widoki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = widok.widoki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18107DB0221FCE3D0049AEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = widoki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = widok.widoki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18107DB2221FCE3D0049AEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = widokiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = widok.widokiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/widoki.app/widoki";
+			};
+			name = Debug;
+		};
+		18107DB3221FCE3D0049AEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = widokiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = widok.widokiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/widoki.app/widoki";
+			};
+			name = Release;
+		};
+		18107DB5221FCE3D0049AEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = widokiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = widok.widokiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = widoki;
+			};
+			name = Debug;
+		};
+		18107DB6221FCE3D0049AEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = widokiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = widok.widokiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = widoki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18107D81221FCE360049AEAC /* Build configuration list for PBXProject "widoki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18107DAC221FCE3D0049AEAC /* Debug */,
+				18107DAD221FCE3D0049AEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18107DAE221FCE3D0049AEAC /* Build configuration list for PBXNativeTarget "widoki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18107DAF221FCE3D0049AEAC /* Debug */,
+				18107DB0221FCE3D0049AEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18107DB1221FCE3D0049AEAC /* Build configuration list for PBXNativeTarget "widokiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18107DB2221FCE3D0049AEAC /* Debug */,
+				18107DB3221FCE3D0049AEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18107DB4221FCE3D0049AEAC /* Build configuration list for PBXNativeTarget "widokiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18107DB5221FCE3D0049AEAC /* Debug */,
+				18107DB6221FCE3D0049AEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18107D7E221FCE360049AEAC /* Project object */;
+}
